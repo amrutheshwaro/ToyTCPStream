@@ -54,7 +54,7 @@ public class Stream implements ToyTCPStream{
         }
 
         // System.out.println(stream.streamData);
-
+        System.out.println();
         char[] someArray3 = {'p'};
         stream.receive(6, someArray3);
         char[] someArray4 = {'x', 'y', 'z'};
@@ -79,5 +79,6 @@ public class Stream implements ToyTCPStream{
         } catch (Exception e) {
             System.out.println(e);
         }
+        System.out.println();
     }
 }
